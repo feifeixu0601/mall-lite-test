@@ -1,0 +1,14 @@
+# 环境配置文件
+# 通过命令行参数 --env 切换环境
+
+dev:
+  base_url: "http://localhost:8000"
+  description: "本地开发环境"
+
+staging:
+  base_url: "http://staging.malllite.com"
+  description: "预发布环境"
+
+prod:
+  base_url: "http://www.malllite.com"
+  description: "生产环境（只读测试）"

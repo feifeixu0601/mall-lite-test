@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}个人中心 - MallLite{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>个人中心</h2>
+
+    {% if user %}
+    <div class="profile-card" id="profile-card">
+        <div class="profile-info">
+            <p><strong>用户名：</strong><span id="profile-username">{{ user.username }}</span></p>
+            <p><strong>昵称：</strong><span id="profile-nickname">{{ user.nickname }}</span></p>
+            <p><strong>手机号：</strong><span id="profile-phone">{{ user.phone }}</span></p>
+            <p><strong>邮箱：</strong><span id="profile-email">{{ user.email }}</span></p>
+            <p><strong>角色：</strong><span id="profile-role">{{ user.role }}</span></p>
+        </div>
+        <div class="profile-actions">
+            <a href="/orders" class="btn-secondary">查看订单</a>
+            <a href="/logout" class="btn-delete" id="logout-btn">退出登录</a>
+        </div>
+    </div>
+    {% else %}
+    <div class="login-prompt">
+        <p>请先 <a href="/login">登录</a></p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

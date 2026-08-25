@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}我的订单 - MallLite{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>我的订单</h2>
+
+    {% if orders %}
+    <div class="order-list" id="order-list">
+        {% for order in orders %}
+        <div class="order-card" data-order-no="{{ order.order_no }}">
+            <div class="order-header">
+                <span class="order-no" id="order-no-{{ loop.index }}">{{ order.order_no }}</span>
+                <span class="order-status status-{{ order.status }}">{{ order.status }}</span>
+                <span class="order-time">{{ order.created_at }}</span>
+            </div>
+            <div class="order-items">
+                {% for item in order["items"] %}
+                <div class="order-item">
+                    <span class="item-name">{{ item.name }}</span>
+                    <span>¥{{ item.price }} × {{ item.quantity }}</span>
+                    <span class="item-subtotal">¥{{ item.subtotal }}</span>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="order-footer">
+                <span class="order-total">合计：¥{{ order.total_price }}</span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-orders" id="empty-orders">
+        <p>暂无订单</p>
+        <a href="/" class="btn-primary">去购物</a>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

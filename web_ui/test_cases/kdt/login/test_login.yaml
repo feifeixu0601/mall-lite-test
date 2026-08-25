@@ -1,0 +1,124 @@
+# KDT 登录功能测试用例
+# 使用关键字描述测试步骤，无需编写 Python 代码
+
+cases:
+  # ========================================
+  # 正向用例
+  # ========================================
+
+  - name: "管理员登录成功"
+    description: "使用管理员账号密码正常登录，验证跳转到首页"
+    markers: [smoke, p0, login]
+    steps:
+      - keyword: login
+        params:
+          username: "admin"
+          password: "admin123"
+      - keyword: assert_login_success
+
+  - name: "普通用户登录成功"
+    description: "使用普通用户账号密码正常登录"
+    markers: [smoke, p0, login]
+    steps:
+      - keyword: login
+        params:
+          username: "testuser"
+          password: "test123"
+      - keyword: assert_login_success
+
+  - name: "VIP 用户登录成功"
+    description: "使用 VIP 用户账号密码正常登录"
+    markers: [smoke, p0, login]
+    steps:
+      - keyword: login
+        params:
+          username: "vipuser"
+          password: "vip123"
+      - keyword: assert_login_success
+
+  # ========================================
+  # 反向用例
+  # ========================================
+
+  - name: "密码错误登录失败"
+    description: "输入正确用户名和错误密码，验证错误提示"
+    markers: [p1, login]
+    steps:
+      - keyword: login
+        params:
+          username: "admin"
+          password: "wrong_password"
+      - keyword: assert_login_fail
+      - keyword: assert_error_message
+        params:
+          expected_msg: "密码错误"
+
+  - name: "用户不存在登录失败"
+    description: "输入不存在的用户名，验证错误提示"
+    markers: [p1, login]
+    steps:
+      - keyword: login
+        params:
+          username: "nonexistent_user_xyz"
+          password: "123456"
+      - keyword: assert_login_fail
+      - keyword: assert_error_message
+        params:
+          expected_msg: "用户不存在"
+
+  - name: "用户名为空登录失败"
+    description: "用户名不输入任何内容，验证错误提示"
+    markers: [p1, login]
+    steps:
+      - keyword: login
+        params:
+          username: ""
+          password: "admin123"
+      - keyword: assert_login_fail
+      - keyword: assert_error_message
+        params:
+          expected_msg: "请输入用户名"
+
+  - name: "密码为空登录失败"
+    description: "密码不输入任何内容，验证错误提示"
+    markers: [p1, login]
+    steps:
+      - keyword: login
+        params:
+          username: "admin"
+          password: ""
+      - keyword: assert_login_fail
+      - keyword: assert_error_message
+        params:
+          expected_msg: "请输入密码"
+
+  # ========================================
+  # 底层关键字用例（混合使用）
+  # ========================================
+
+  - name: "使用底层关键字登录"
+    description: "演示使用底层关键字（fill、click）逐步登录"
+    markers: [regression, p2, login]
+    steps:
+      - keyword: navigate
+        params:
+          url: "/login"
+        desc: "打开登录页"
+      - keyword: fill
+        params:
+          selector: "#username"
+          value: "admin"
+        desc: "输入用户名"
+      - keyword: fill
+        params:
+          selector: "#password"
+          value: "admin123"
+        desc: "输入密码"
+      - keyword: click
+        params:
+          selector: "#login-btn"
+        desc: "点击登录按钮"
+      - keyword: assert_url_not_contains
+        params:
+          text: "/login"
+        desc: "验证已离开登录页"

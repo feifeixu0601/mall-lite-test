@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name }} - MallLite{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="product-detail" id="product-detail">
+        <div class="product-detail-left">
+            <div class="product-img-placeholder large">{{ product.category }}</div>
+        </div>
+        <div class="product-detail-right">
+            <h1 class="product-title" id="product-title">{{ product.name }}</h1>
+            <div class="product-meta">
+                <span class="product-price" id="product-price">¥{{ product.price }}</span>
+                <span class="product-stock" id="product-stock">库存：{{ product.stock }}件</span>
+                <span class="product-rating">评分：{{ product.rating }}</span>
+            </div>
+            <p class="product-desc" id="product-desc">{{ product.description }}</p>
+
+            <div class="product-actions">
+                <div class="quantity-selector">
+                    <button class="qty-btn qty-minus" id="qty-minus">-</button>
+                    <input type="number" class="qty-input" id="qty-input" value="1" min="1" max="{{ product.stock }}">
+                    <button class="qty-btn qty-plus" id="qty-plus">+</button>
+                </div>
+                <form action="/cart/add/{{ product.id }}" method="post" style="display:inline;">
+                    <button type="submit" class="btn-primary add-to-cart-btn" id="add-to-cart-btn">加入购物车</button>
+                </form>
+            </div>
+
+            {% if product.is_new %}
+            <span class="badge-new large">新品</span>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

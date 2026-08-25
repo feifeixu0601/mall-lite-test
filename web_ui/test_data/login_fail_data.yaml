@@ -1,0 +1,27 @@
+# 登录失败场景数据
+# 用于 DDT 数据驱动的登录测试
+
+- case_name: "密码错误"
+  username: "admin"
+  password: "wrong_password"
+  expected_msg: "密码错误"
+
+- case_name: "用户不存在"
+  username: "nonexistent_user_xyz"
+  password: "123456"
+  expected_msg: "用户不存在"
+
+- case_name: "用户名为空"
+  username: ""
+  password: "admin123"
+  expected_msg: "请输入用户名"
+
+- case_name: "密码为空"
+  username: "admin"
+  password: ""
+  expected_msg: "请输入密码"
+
+- case_name: "用户名密码都为空"
+  username: ""
+  password: ""
+  expected_msg: "请输入用户名"

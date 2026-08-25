@@ -1,0 +1,19 @@
+[
+  {
+    "order_no": "ORD20240115-TEST",
+    "user_id": 2,
+    "items": [
+      {
+        "product_id": 1,
+        "name": "iPhone 15 Pro",
+        "price": 8999,
+        "quantity": 1,
+        "subtotal": 8999
+      }
+    ],
+    "total_price": 8999,
+    "status": "已支付",
+    "created_at": "2024-01-15 12:00:00",
+    "updated_at": "2026-08-11 17:34:42"
+  }
+]

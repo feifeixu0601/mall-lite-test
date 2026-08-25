@@ -1,0 +1,63 @@
+# DDT 数据驱动的登录测试
+# 一条模板 + 外部数据文件 = 多条用例
+
+cases:
+  # ========================================
+  # DDT：登录成功
+  # ========================================
+
+  - name: "登录成功 - ${case_name}"
+    description: "数据驱动：验证各用户类型能正常登录"
+    markers: [smoke, p0, login, ddt]
+    data_source: "login_success_data.yaml"
+    steps:
+      - keyword: login
+        params:
+          username: "${username}"
+          password: "${password}"
+      - keyword: assert_login_success
+
+  # ========================================
+  # DDT：登录失败
+  # ========================================
+
+  - name: "登录失败 - ${case_name}"
+    description: "数据驱动：验证各种登录失败场景"
+    markers: [p1, login, ddt]
+    data_source: "login_fail_data.yaml"
+    steps:
+      - keyword: login
+        params:
+          username: "${username}"
+          password: "${password}"
+      - keyword: assert_login_fail
+      - keyword: assert_error_message
+        params:
+          expected_msg: "${expected_msg}"
+
+  # ========================================
+  # DDT：底层关键字 + 数据驱动
+  # ========================================
+
+  - name: "底层关键字登录 - ${case_name}"
+    description: "数据驱动 + 底层关键字混合使用"
+    markers: [regression, p2, login, ddt]
+    data_source: "login_success_data.yaml"
+    steps:
+      - keyword: navigate
+        params:
+          url: "/login"
+      - keyword: fill
+        params:
+          selector: "#username"
+          value: "${username}"
+      - keyword: fill
+        params:
+          selector: "#password"
+          value: "${password}"
+      - keyword: click
+        params:
+          selector: "#login-btn"
+      - keyword: assert_url_not_contains
+        params:
+          text: "/login"

@@ -1,0 +1,36 @@
+# DDT 数据驱动的搜索测试
+
+cases:
+  # ========================================
+  # DDT：关键词搜索
+  # ========================================
+
+  - name: "搜索 - ${case_name}"
+    description: "数据驱动：验证各种关键词搜索"
+    markers: [p1, search, ddt]
+    data_source: "search_ddt_data.yaml"
+    steps:
+      - keyword: open_home_page
+      - keyword: search
+        params:
+          keyword: "${keyword}"
+      - keyword: assert_product_count_min
+        params:
+          min_count: "${min_count}"
+
+  # ========================================
+  # DDT：分类筛选
+  # ========================================
+
+  - name: "分类筛选 - ${case_name}"
+    description: "数据驱动：验证各分类筛选"
+    markers: [p1, search, ddt]
+    data_source: "category_ddt_data.yaml"
+    steps:
+      - keyword: open_home_page
+      - keyword: click_category
+        params:
+          category: "${category}"
+      - keyword: assert_product_count_min
+        params:
+          min_count: "${min_count}"

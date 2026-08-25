@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "手机",
+    "icon": "phone"
+  },
+  {
+    "id": 2,
+    "name": "笔记本",
+    "icon": "laptop"
+  },
+  {
+    "id": 3,
+    "name": "平板",
+    "icon": "tablet"
+  },
+  {
+    "id": 4,
+    "name": "配件",
+    "icon": "accessory"
+  }
+]

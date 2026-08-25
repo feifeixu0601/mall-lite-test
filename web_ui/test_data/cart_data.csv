@@ -1,0 +1,8 @@
+case_name,product_id,product_name,quantity,expected_msg
+添加单个商品到购物车,1,iPhone 15 Pro,1,已加入购物车
+添加另一个商品,5,MacBook Pro 14,1,已加入购物车
+添加配件商品,11,AirPods Pro 2,1,已加入购物车
+
+
+
+

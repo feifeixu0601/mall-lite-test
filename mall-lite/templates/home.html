@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}MallLite - 首页{% endblock %}
+
+{% block content %}
+<div class="container">
+    <nav class="category-nav" id="category-nav">
+        <a href="/" class="category-link {% if not current_category %}active{% endif %}">全部</a>
+        {% for cat in categories %}
+        <a href="/?category={{ cat.name }}" class="category-link {% if current_category == cat.name %}active{% endif %}" data-category="{{ cat.name }}">{{ cat.name }}</a>
+        {% endfor %}
+    </nav>
+
+    <div class="product-list" id="product-list">
+        {% for product in products %}
+        <div class="product-card" data-id="{{ product.id }}">
+            <a href="/products/{{ product.id }}">
+                <div class="product-img-placeholder">{{ product.category }}</div>
+                <h3 class="product-name">{{ product.name }}</h3>
+                <span class="product-price">¥{{ product.price }}</span>
+                {% if product.is_new %}
+                <span class="badge-new">新品</span>
+                {% endif %}
+                <span class="product-rating">{{ product.rating }}分</span>
+            </a>
+            <form action="/cart/add/{{ product.id }}" method="post">
+                <button type="submit" class="add-cart-btn" id="add-cart-{{ product.id }}">加入购物车</button>
+            </form>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% if total_pages > 1 %}
+    <div class="pagination" id="pagination">
+        {% if page > 1 %}
+        <a href="/?page={{ page - 1 }}{% if current_category %}&category={{ current_category }}{% endif %}" class="page-link page-prev">上一页</a>
+        {% endif %}
+        <span class="page-info" id="page-info">第 {{ page }}/{{ total_pages }} 页（共 {{ total }} 件商品）</span>
+        {% if page < total_pages %}
+        <a href="/?page={{ page + 1 }}{% if current_category %}&category={{ current_category }}{% endif %}" class="page-link page-next">下一页</a>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

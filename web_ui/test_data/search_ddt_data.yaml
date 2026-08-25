@@ -1,0 +1,21 @@
+# 搜索场景数据
+
+- case_name: "iPhone"
+  keyword: "iPhone"
+  min_count: 1
+
+- case_name: "Pro"
+  keyword: "Pro"
+  min_count: 2
+
+- case_name: "华为"
+  keyword: "华为"
+  min_count: 1
+
+- case_name: "AirPods"
+  keyword: "AirPods"
+  min_count: 1
+
+- case_name: "不存在的商品"
+  keyword: "xyz_not_exist"
+  min_count: 0

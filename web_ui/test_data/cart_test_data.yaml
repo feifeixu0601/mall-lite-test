@@ -1,0 +1,12 @@
+add_cart_cases:
+  - case_name: "添加 iPhone 到购物车"
+    product_index: 0
+    product_keyword: "iPhone"
+
+  - case_name: "添加 MacBook 到购物车"
+    product_index: 4
+    product_keyword: "MacBook"
+
+  - case_name: "添加 AirPods 到购物车"
+    product_index: 10
+    product_keyword: "AirPods"

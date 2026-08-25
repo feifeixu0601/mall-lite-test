@@ -1,0 +1,63 @@
+[
+  {
+    "case_name": "管理员登录成功",
+    "username": "admin",
+    "password": "admin123",
+    "expected": "success",
+    "description": "使用管理员账号正常登录"
+  },
+  {
+    "case_name": "普通用户登录成功",
+    "username": "testuser",
+    "password": "test123",
+    "expected": "success",
+    "description": "使用普通用户账号正常登录"
+  },
+  {
+    "case_name": "VIP 用户登录成功",
+    "username": "vipuser",
+    "password": "vip123",
+    "expected": "success",
+    "description": "使用 VIP 用户账号正常登录"
+  },
+  {
+    "case_name": "密码错误",
+    "username": "admin",
+    "password": "wrong_password",
+    "expected": "fail",
+    "expected_msg": "密码错误",
+    "description": "输入正确用户名和错误密码"
+  },
+  {
+    "case_name": "用户不存在",
+    "username": "nonexistent_user",
+    "password": "123456",
+    "expected": "fail",
+    "expected_msg": "用户不存在",
+    "description": "输入不存在的用户名"
+  },
+  {
+    "case_name": "用户名为空",
+    "username": "",
+    "password": "admin123",
+    "expected": "fail",
+    "expected_msg": "请输入用户名",
+    "description": "用户名不输入任何内容"
+  },
+  {
+    "case_name": "密码为空",
+    "username": "admin",
+    "password": "",
+    "expected": "fail",
+    "expected_msg": "请输入密码",
+    "description": "密码不输入任何内容"
+  },
+  {
+    "case_name": "用户名和密码都为空",
+    "username": "",
+    "password": "",
+    "expected": "fail",
+    "expected_msg": "请输入用户名",
+    "description": "用户名和密码都不输入"
+  }
+]

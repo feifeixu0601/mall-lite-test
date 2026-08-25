@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}购物车 - MallLite{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>我的购物车</h2>
+
+    {% if cart %}
+    <div class="cart-list" id="cart-list">
+        {% for item in cart %}
+        <div class="cart-item" data-id="{{ item.product_id }}">
+            <div class="item-info">
+                <span class="item-name">{{ item.name }}</span>
+                <span class="item-price">¥{{ item.price }}</span>
+            </div>
+            <div class="item-quantity">
+                数量：{{ item.quantity }}
+            </div>
+            <span class="item-subtotal">¥{{ item.price * item.quantity }}</span>
+            <form action="/cart/remove/{{ item.product_id }}" method="post" style="display:inline;">
+                <button type="submit" class="btn-delete delete-btn" id="delete-{{ item.product_id }}">删除</button>
+            </form>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="cart-footer" id="cart-footer">
+        <span class="total-price" id="total-price">合计：¥{{ summary.total_price }}</span>
+        <span class="total-quantity">共 {{ summary.total_quantity }} 件</span>
+        <form action="/orders/create" method="post" style="display:inline;">
+            <button type="submit" class="btn-primary checkout-btn" id="checkout-btn">去结算</button>
+        </form>
+    </div>
+    {% else %}
+    <div class="empty-cart" id="empty-cart">
+        <p>购物车是空的</p>
+        <a href="/" class="btn-primary">去逛逛</a>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

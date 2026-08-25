@@ -1,0 +1,13 @@
+# 登录成功场景数据
+
+- case_name: "管理员"
+  username: "admin"
+  password: "admin123"
+
+- case_name: "普通用户"
+  username: "testuser"
+  password: "test123"
+
+- case_name: "VIP 用户"
+  username: "vipuser"
+  password: "vip123"

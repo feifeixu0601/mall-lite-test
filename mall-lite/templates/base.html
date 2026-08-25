@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}MallLite{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <a href="/" class="logo">MallLite</a>
+            <div class="search-bar">
+                <form action="/" method="get">
+                    <input type="text" id="search-input" name="keyword" placeholder="搜索商品" value="{{ keyword if keyword else '' }}">
+                    <button type="submit" id="search-btn">搜索</button>
+                </form>
+            </div>
+            <nav class="nav-links">
+                <a href="/cart" id="cart-link">购物车</a>
+                <a href="/orders" id="orders-link">订单</a>
+                <a href="/profile" id="profile-link">个人中心</a>
+                <a href="/login" id="login-link">登录</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <p>MallLite 电商系统 - 自动化测试练习项目</p>
+    </footer>
+</body>
+</html>

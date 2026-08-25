@@ -1,0 +1,118 @@
+# KDT 搜索功能测试用例
+
+cases:
+  # ========================================
+  # 关键词搜索
+  # ========================================
+
+  - name: "搜索 iPhone 有结果"
+    description: "搜索存在的关键词，验证有结果返回"
+    markers: [smoke, p0, search]
+    steps:
+      - keyword: open_home_page
+      - keyword: search
+        params:
+          keyword: "iPhone"
+      - keyword: assert_products_not_empty
+
+  - name: "搜索 Pro 有多个结果"
+    description: "搜索通用关键词，验证有多个结果"
+    markers: [p1, search]
+    steps:
+      - keyword: open_home_page
+      - keyword: search
+        params:
+          keyword: "Pro"
+      - keyword: assert_product_count_min
+        params:
+          min_count: 2
+
+  - name: "搜索华为有结果"
+    markers: [p1, search]
+    steps:
+      - keyword: open_home_page
+      - keyword: search
+        params:
+          keyword: "华为"
+      - keyword: assert_products_not_empty
+
+  - name: "搜索 AirPods 有结果"
+    markers: [p1, search]
+    steps:
+      - keyword: open_home_page
+      - keyword: search
+        params:
+          keyword: "AirPods"
+      - keyword: assert_products_not_empty
+
+  - name: "搜索不存在的商品"
+    description: "搜索不存在的关键词，验证无结果"
+    markers: [p1, search]
+    steps:
+      - keyword: open_home_page
+      - keyword: search
+        params:
+          keyword: "xyz_not_exist_12345"
+      - keyword: assert_products_empty
+
+  # ========================================
+  # 分类筛选
+  # ========================================
+
+  - name: "筛选手机分类"
+    markers: [p1, search]
+    steps:
+      - keyword: open_home_page
+      - keyword: click_category
+        params:
+          category: "手机"
+      - keyword: assert_product_count_min
+        params:
+          min_count: 2
+
+  - name: "筛选笔记本分类"
+    markers: [p1, search]
+    steps:
+      - keyword: open_home_page
+      - keyword: click_category
+        params:
+          category: "笔记本"
+      - keyword: assert_product_count_min
+        params:
+          min_count: 1
+
+  - name: "筛选平板分类"
+    markers: [p1, search]
+    steps:
+      - keyword: open_home_page
+      - keyword: click_category
+        params:
+          category: "平板"
+      - keyword: assert_product_count_min
+        params:
+          min_count: 1
+
+  - name: "筛选配件分类"
+    markers: [p1, search]
+    steps:
+      - keyword: open_home_page
+      - keyword: click_category
+        params:
+          category: "配件"
+      - keyword: assert_product_count_min
+        params:
+          min_count: 2
+
+  # ========================================
+  # 边界用例
+  # ========================================
+
+  - name: "空搜索显示全部商品"
+    description: "搜索框留空点击搜索，显示所有商品"
+    markers: [regression, p2, search]
+    steps:
+      - keyword: open_home_page
+      - keyword: search
+        params:
+          keyword: ""
+      - keyword: assert_products_not_empty

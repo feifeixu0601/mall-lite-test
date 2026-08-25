@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro",
+    "price": 8999,
+    "category": "手机",
+    "stock": 98,
+    "description": "A17 Pro 芯片，钛金属设计，48MP 主摄",
+    "is_new": true,
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "iPhone 15",
+    "price": 5999,
+    "category": "手机",
+    "stock": 200,
+    "description": "A16 芯片，灵动岛设计，USB-C 接口",
+    "is_new": true,
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "华为 Mate 60 Pro",
+    "price": 6999,
+    "category": "手机",
+    "stock": 80,
+    "description": "麒麟 9000S，卫星通信，XMAGE 影像",
+    "is_new": true,
+    "rating": 4.9
+  },
+  {
+    "id": 4,
+    "name": "小米 14 Pro",
+    "price": 4999,
+    "category": "手机",
+    "stock": 150,
+    "description": "骁龙 8 Gen3，徕卡光学，2K 屏幕",
+    "is_new": false,
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "MacBook Pro 14",
+    "price": 14999,
+    "category": "笔记本",
+    "stock": 50,
+    "description": "M3 Pro 芯片，18 小时续航，Liquid Retina XDR",
+    "is_new": true,
+    "rating": 4.9
+  },
+  {
+    "id": 6,
+    "name": "ThinkPad X1 Carbon",
+    "price": 9999,
+    "category": "笔记本",
+    "stock": 60,
+    "description": "14 英寸，1.12kg，商务旗舰",
+    "is_new": false,
+    "rating": 4.5
+  },
+  {
+    "id": 7,
+    "name": "华为 MateBook X Pro",
+    "price": 8999,
+    "category": "笔记本",
+    "stock": 45,
+    "description": "3.1K OLED 触控屏，超窄边框",
+    "is_new": false,
+    "rating": 4.6
+  },
+  {
+    "id": 8,
+    "name": "iPad Pro 12.9",
+    "price": 8999,
+    "category": "平板",
+    "stock": 70,
+    "description": "M2 芯片，Liquid Retina XDR，ProMotion",
+    "is_new": false,
+    "rating": 4.8
+  },
+  {
+    "id": 9,
+    "name": "iPad Air",
+    "price": 4799,
+    "category": "平板",
+    "stock": 120,
+    "description": "M1 芯片，10.9 英寸，Touch ID",
+    "is_new": false,
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "name": "华为 MatePad Pro",
+    "price": 3999,
+    "category": "平板",
+    "stock": 90,
+    "description": "11 英寸 OLED，骁龙 888",
+    "is_new": true,
+    "rating": 4.5
+  },
+  {
+    "id": 11,
+    "name": "AirPods Pro 2",
+    "price": 1899,
+    "category": "配件",
+    "stock": 300,
+    "description": "自适应降噪，个性化空间音频",
+    "is_new": false,
+    "rating": 4.8
+  },
+  {
+    "id": 12,
+    "name": "Apple Watch Series 9",
+    "price": 3299,
+    "category": "配件",
+    "stock": 100,
+    "description": "S9 芯片，双指互点手势，亮度翻倍",
+    "is_new": true,
+    "rating": 4.6
+  },
+  {
+    "id": 13,
+    "name": "MagSafe 充电器",
+    "price": 399,
+    "category": "配件",
+    "stock": 500,
+    "description": "磁吸对齐，无线充电最高 15W",
+    "is_new": false,
+    "rating": 4.3
+  },
+  {
+    "id": 14,
+    "name": "USB-C 转接头",
+    "price": 199,
+    "category": "配件",
+    "stock": 800,
+    "description": "USB-C 转 HDMI + USB-A + SD 卡槽",
+    "is_new": false,
+    "rating": 4.2
+  },
+  {
+    "id": 15,
+    "name": "笔记本支架",
+    "price": 299,
+    "category": "配件",
+    "stock": 200,
+    "description": "铝合金材质，可调节高度，散热设计",
+    "is_new": false,
+    "rating": 4.4
+  }
+]

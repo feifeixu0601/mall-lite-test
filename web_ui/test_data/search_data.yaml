@@ -1,0 +1,37 @@
+keyword_cases:
+  - case_name: "搜索 iPhone"
+    keyword: "iPhone"
+    expect_min_count: 1
+
+  - case_name: "搜索 Pro"
+    keyword: "Pro"
+    expect_min_count: 2
+
+  - case_name: "搜索华为"
+    keyword: "华为"
+    expect_min_count: 1
+
+  - case_name: "搜索 AirPods"
+    keyword: "AirPods"
+    expect_min_count: 1
+
+  - case_name: "搜索不存在的商品"
+    keyword: "xyz_not_exist"
+    expect_min_count: 0
+
+category_cases:
+  - case_name: "筛选手机分类"
+    category: "手机"
+    expect_min_count: 2
+
+  - case_name: "筛选笔记本分类"
+    category: "笔记本"
+    expect_min_count: 1
+
+  - case_name: "筛选平板分类"
+    category: "平板"
+    expect_min_count: 1
+
+  - case_name: "筛选配件分类"
+    category: "配件"
+    expect_min_count: 2

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "admin123",
+    "phone": "13800000001",
+    "email": "admin@malllite.com",
+    "role": "admin",
+    "nickname": "管理员"
+  },
+  {
+    "id": 2,
+    "username": "testuser",
+    "password": "test123",
+    "phone": "13800000002",
+    "email": "test@malllite.com",
+    "role": "user",
+    "nickname": "测试用户"
+  },
+  {
+    "id": 3,
+    "username": "vipuser",
+    "password": "vip123",
+    "phone": "13800000003",
+    "email": "vip@malllite.com",
+    "role": "vip",
+    "nickname": "VIP 用户"
+  }
+]

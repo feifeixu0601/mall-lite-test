@@ -1,0 +1,112 @@
+# KDT 购物车功能测试用例
+
+cases:
+  # ========================================
+  # 添加购物车
+  # ========================================
+
+  - name: "从首页添加商品到购物车"
+    description: "在首页点击加入购物车按钮，验证购物车有该商品"
+    markers: [smoke, p0, cart]
+    steps:
+      - keyword: login
+        params:
+          username: "admin"
+          password: "admin123"
+        desc: "登录"
+      - keyword: open_cart
+        desc: "先打开购物车"
+      - keyword: clear_cart
+        desc: "清空购物车，确保干净环境"
+      - keyword: open_home_page
+        desc: "打开首页"
+      - keyword: add_product_from_home
+        params:
+          index: 0
+        desc: "添加第一个商品到购物车"
+      - keyword: open_cart
+        desc: "打开购物车"
+      - keyword: assert_cart_not_empty
+        desc: "验证购物车不为空"
+
+  - name: "从详情页添加商品到购物车"
+    description: "进入商品详情页后加入购物车"
+    markers: [smoke, p0, cart]
+    steps:
+      - keyword: login
+        params:
+          username: "admin"
+          password: "admin123"
+      - keyword: open_cart
+        desc: "先打开购物车"
+      - keyword: clear_cart
+        desc: "清空购物车，确保干净环境"
+      - keyword: open_product_detail
+        params:
+          product_id: 1
+        desc: "打开商品详情"
+      - keyword: add_to_cart
+        desc: "加入购物车"
+      - keyword: open_cart
+      - keyword: assert_cart_not_empty
+
+  # ========================================
+  # 删除购物车
+  # ========================================
+
+  - name: "删除购物车商品"
+    description: "添加商品后删除，验证购物车为空"
+    markers: [smoke, p1, cart]
+    steps:
+      - keyword: login
+        params:
+          username: "admin"
+          password: "admin123"
+      - keyword: open_cart
+      - keyword: clear_cart
+        desc: "先清空购物车，确保干净环境"
+      - keyword: open_home_page
+      - keyword: add_product_from_home
+        params:
+          index: 0
+      - keyword: open_cart
+      - keyword: assert_cart_not_empty
+        desc: "删除前验证有商品"
+      - keyword: delete_cart_item
+        params:
+          index: 0
+        desc: "删除第一个商品"
+      - keyword: assert_cart_empty
+        desc: "删除后验证为空"
+
+  # ========================================
+  # 空购物车
+  # ========================================
+
+  - name: "未登录访问购物车"
+    description: "不登录直接访问购物车，验证页面正常加载"
+    markers: [regression, p2, cart]
+    steps:
+      - keyword: open_cart
+      - keyword: assert_url_contains
+        params:
+          text: "/cart"
+        desc: "验证购物车页面能正常加载"
+
+  # ========================================
+  # 底层关键字用例
+  # ========================================
+
+  - name: "使用底层关键字验证购物车页面"
+    description: "演示混合使用底层关键字和业务关键字"
+    markers: [regression, p2, cart]
+    steps:
+      - keyword: login
+        params:
+          username: "admin"
+          password: "admin123"
+      - keyword: open_cart
+      - keyword: assert_visible
+        params:
+          selector: ".container"
+        desc: "验证购物车页面正常加载"
