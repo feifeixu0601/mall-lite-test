@@ -1,0 +1,14 @@
+[32mINFO    [0m api_client:base_api.py:102 >>> GET http://localhost:8000/api/cart
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.016s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 200, "data": {"items": [{"product_id": 1, "name": "iPhone 15 Pro", "price": 8999, "quantity": 0, "subtotal": 0}], "total_price": 0, "total_quantity": 0, "item_count": 1}}
+[32mINFO    [0m cart_api:cart_api.py:62 删除购物车商品：商品ID=1
+[32mINFO    [0m api_client:base_api.py:102 >>> DELETE http://localhost:8000/api/cart/1
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.006s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 200, "message": "购物车已更新"}
+[32mINFO    [0m cart_api:cart_api.py:77 购物车已清空（删除 1 个商品）
+[32mINFO    [0m cart_api:cart_api.py:36 添加到购物车：商品ID=1，数量=-1
+[32mINFO    [0m api_client:base_api.py:102 >>> POST http://localhost:8000/api/cart
+[32mINFO    [0m api_client:base_api.py:106     Body: {"product_id": 1, "quantity": -1}
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.009s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 200, "message": "iPhone 15 Pro 已加入购物车"}
+[32mINFO    [0m assertions:assertions.py:56   ✓ 业务成功 (code=200)

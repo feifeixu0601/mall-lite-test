@@ -1,0 +1,10 @@
+14:09:31 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:31 | INFO     | api_client   | <<< 200 (0.007s)
+14:09:31 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:09:31 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:09:31 | INFO     | cart_api     | 添加到购物车：商品ID=999999，数量=1
+14:09:31 | INFO     | api_client   | >>> POST http://localhost:8000/api/cart
+14:09:31 | INFO     | api_client   |     Body: {"product_id": 999999, "quantity": 1}
+14:09:31 | INFO     | api_client   | <<< 200 (0.006s)
+14:09:31 | INFO     | api_client   |     {"code": 400, "message": "商品不存在"}
+14:09:31 | INFO     | assertions   |   ✓ 业务失败 (code=400)

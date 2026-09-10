@@ -1,0 +1,9 @@
+[32mINFO    [0m api_client:base_api.py:102 >>> GET http://localhost:8000/api/cart
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.006s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+[32mINFO    [0m cart_api:cart_api.py:77 购物车已清空（删除 0 个商品）
+[32mINFO    [0m cart_api:cart_api.py:50 修改数量：商品ID=999999 → 5
+[32mINFO    [0m api_client:base_api.py:102 >>> PUT http://localhost:8000/api/cart/999999
+[32mINFO    [0m api_client:base_api.py:106     Body: {"quantity": 5}
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.005s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 400, "message": "商品不在购物车中"}

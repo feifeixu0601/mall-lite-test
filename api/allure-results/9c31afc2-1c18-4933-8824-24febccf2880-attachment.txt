@@ -1,0 +1,9 @@
+[32mINFO    [0m api_client:base_api.py:102 >>> GET http://localhost:8000/api/cart
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.003s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+[32mINFO    [0m cart_api:cart_api.py:77 购物车已清空（删除 0 个商品）
+[32mINFO    [0m api_client:base_api.py:102 >>> GET http://localhost:8000/api/products
+[32mINFO    [0m api_client:base_api.py:104     Params: {"page": 1, "page_size": 0}
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:869 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /api/products?page=1&page_size=0
+[31m[1mERROR   [0m api_client:base_api.py:144 请求异常：HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/products?page=1&page_size=0 (Caused by ResponseError('too many 500 error responses'))
+[35mDEBUG   [0m api_client:base_api.py:154 Session 已关闭（请求 1 次，失败 1 次）

@@ -1,0 +1,5 @@
+test_cases\test_shopping_flow.py:49: in test_new_user_full_flow
+    a(resp).assert_success()
+common\assertions.py:54: in assert_success
+    assert code == 200, \
+E   AssertionError: 业务码期望 200，实际 401，消息：用户不存在

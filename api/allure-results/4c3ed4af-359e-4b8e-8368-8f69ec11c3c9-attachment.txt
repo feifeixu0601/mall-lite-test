@@ -1,0 +1,8 @@
+14:09:32 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:32 | INFO     | api_client   | <<< 200 (0.005s)
+14:09:32 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:09:32 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:09:32 | INFO     | cart_api     | 删除购物车商品：商品ID=999999
+14:09:32 | INFO     | api_client   | >>> DELETE http://localhost:8000/api/cart/999999
+14:09:32 | INFO     | api_client   | <<< 200 (0.004s)
+14:09:32 | INFO     | api_client   |     {"code": 400, "message": "商品不在购物车中"}

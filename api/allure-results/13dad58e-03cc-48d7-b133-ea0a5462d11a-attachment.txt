@@ -1,0 +1,9 @@
+14:03:15 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:03:15 | INFO     | api_client   | <<< 200 (0.004s)
+14:03:15 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:03:15 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:03:15 | INFO     | user_api     | 登录：<script>alert(1)</script>
+14:03:15 | INFO     | api_client   | >>> POST http://localhost:8000/api/login
+14:03:15 | INFO     | api_client   |     Body: {"username": "<script>alert(1)</script>", "password": "123"}
+14:03:17 | INFO     | api_client   | <<< 200 (2.024s)
+14:03:17 | INFO     | api_client   |     {"code": 401, "message": "用户不存在", "data": null}

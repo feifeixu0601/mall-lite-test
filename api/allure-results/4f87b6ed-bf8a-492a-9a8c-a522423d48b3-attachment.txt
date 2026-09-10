@@ -1,0 +1,7 @@
+14:09:32 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:32 | INFO     | api_client   | <<< 200 (0.005s)
+14:09:32 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:09:32 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:09:32 | INFO     | api_client   | >>> GET http://localhost:8000/api/orders/ORD_NOT_EXIST_999
+14:09:32 | INFO     | api_client   | <<< 404 (0.018s)
+14:09:32 | INFO     | api_client   |     {"detail": "订单不存在"}

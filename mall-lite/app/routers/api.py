@@ -161,7 +161,10 @@ async def api_orders(request: Request, user_id: int = 2, status: str = None):
 
 @router.post("/orders")
 async def api_create_order(request: Request):
-    body = await request.json()
+    try:
+        body = await request.json()
+    except Exception:
+        body = {}
     store = get_store(request)
     user_id = body.get("user_id", 2)
     cart = store.get_cart(user_id)

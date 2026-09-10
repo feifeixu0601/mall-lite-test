@@ -1,0 +1,14 @@
+14:02:52 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:02:52 | INFO     | api_client   | <<< 200 (0.006s)
+14:02:52 | INFO     | api_client   |     {"code": 200, "data": {"items": [{"product_id": 1, "name": "iPhone 15 Pro", "price": 8999, "quantity": 3, "subtotal": 26997}], "total_price": 26997, "total_quantity": 3, "item_count": 1}}
+14:02:52 | INFO     | cart_api     | 删除购物车商品：商品ID=1
+14:02:52 | INFO     | api_client   | >>> DELETE http://localhost:8000/api/cart/1
+14:02:52 | INFO     | api_client   | <<< 200 (0.006s)
+14:02:52 | INFO     | api_client   |     {"code": 200, "message": "购物车已更新"}
+14:02:52 | INFO     | cart_api     | 购物车已清空（删除 1 个商品）
+14:02:52 | INFO     | cart_api     | 添加到购物车：商品ID=99999，数量=1
+14:02:52 | INFO     | api_client   | >>> POST http://localhost:8000/api/cart
+14:02:52 | INFO     | api_client   |     Body: {"product_id": 99999, "quantity": 1}
+14:02:52 | INFO     | api_client   | <<< 200 (0.006s)
+14:02:52 | INFO     | api_client   |     {"code": 400, "message": "商品不存在"}
+14:02:52 | INFO     | assertions   |   ✓ 业务失败 (code=400)

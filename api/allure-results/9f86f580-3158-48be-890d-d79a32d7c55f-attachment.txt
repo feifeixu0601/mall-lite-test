@@ -1,0 +1,6 @@
+14:04:35 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:04:35 | INFO     | api_client   | <<< 200 (0.002s)
+14:04:35 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:04:35 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:04:35 | INFO     | api_client   | >>> GET http://localhost:19999/api/products
+14:04:49 | ERROR    | api_client   | 连接失败：http://localhost:19999/api/products（请确认 MallLite 是否启动）

@@ -1,0 +1,36 @@
+2026-08-26 16:42:13 | INFO     | malllite | 日志系统初始化完成，日志文件：logs\malllite_2026-08-26.log
+2026-08-26 16:42:13 | INFO     | malllite | ==================================================
+2026-08-26 16:42:13 | INFO     | malllite | MallLite 电商系统启动中...
+2026-08-26 16:42:13 | INFO     | malllite | ==================================================
+2026-08-26 16:42:13 | INFO     | malllite | DataStore 初始化完成，数据目录：data
+2026-08-26 16:42:13 | INFO     | malllite | 路由注册完成
+2026-08-26 16:42:13 | INFO     | malllite | MallLite 启动成功
+2026-08-26 16:42:13 | INFO     | malllite |   访问地址：http://localhost:8000
+2026-08-26 16:42:13 | INFO     | malllite |   API 文档：http://localhost:8000/docs
+2026-08-26 16:42:20 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-08-26 16:42:22 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-08-26 16:42:22 | INFO     | malllite | 用户 admin 登录成功
+2026-08-26 17:05:57 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-08-26 17:05:59 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-08-26 17:05:59 | INFO     | malllite | 用户 admin 登录成功
+2026-08-26 17:06:27 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-08-26 17:06:29 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-08-26 17:06:29 | INFO     | malllite | 用户 admin 登录成功
+2026-08-26 17:32:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-08-26 17:32:05 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-08-26 17:32:05 | INFO     | malllite | 用户 admin 登录成功
+2026-08-26 17:35:28 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-08-26 17:35:28 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-08-26 17:35:28 | INFO     | malllite | 用户 admin 登录成功
+2026-08-26 17:35:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-08-26 17:35:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-08-26 17:35:28 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-08-26 17:35:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-08-26 17:35:28 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-08-26 17:35:28 | INFO     | malllite | 用户 2 更新购物车：iPhone 15 Pro 数量更新为 6
+2026-08-26 17:35:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-08-26 17:35:28 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-08-26 17:35:28 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 3
+2026-08-26 17:35:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-08-26 17:35:28 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-08-26 17:35:28 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0

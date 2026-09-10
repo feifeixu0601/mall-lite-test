@@ -1,0 +1,9 @@
+14:04:31 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:04:31 | INFO     | api_client   | <<< 200 (0.003s)
+14:04:31 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:04:31 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:04:31 | INFO     | api_client   | >>> GET http://localhost:8000/api/categories
+14:04:33 | INFO     | api_client   | <<< 200 (2.055s)
+14:04:33 | INFO     | api_client   |     {"code": 200, "data": [{"id": 1, "name": "手机", "icon": "phone"}, {"id": 2, "name": "笔记本", "icon": "laptop"}, {"id": 3, "name": "平板", "icon": "tablet"}, {"id": 4, "name": "配件", "icon": "accessory"}]}
+14:04:33 | INFO     | assertions   |   ✓ 业务成功 (code=200)
+14:04:33 | INFO     | assertions   |   ✓ Schema 校验通过：category_list

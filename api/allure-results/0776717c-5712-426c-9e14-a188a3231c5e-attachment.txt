@@ -1,0 +1,15 @@
+14:09:20 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:20 | INFO     | api_client   | <<< 200 (0.005s)
+14:09:20 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:09:20 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:09:20 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:20 | INFO     | api_client   | <<< 200 (0.005s)
+14:09:20 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:09:20 | INFO     | cart_api     | 添加到购物车：商品ID=1，数量=3
+14:09:20 | INFO     | api_client   | >>> POST http://localhost:8000/api/cart
+14:09:20 | INFO     | api_client   |     Body: {"product_id": 1, "quantity": 3}
+14:09:20 | INFO     | api_client   | <<< 200 (0.008s)
+14:09:20 | INFO     | api_client   |     {"code": 200, "message": "iPhone 15 Pro 已加入购物车"}
+14:09:20 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:20 | INFO     | api_client   | <<< 200 (0.010s)
+14:09:20 | INFO     | api_client   |     {"code": 200, "data": {"items": [{"product_id": 1, "name": "iPhone 15 Pro", "price": 8999, "quantity": 3, "subtotal": 26997}], "total_price": 26997, "total_quantity": 3, "item_count": 1}}

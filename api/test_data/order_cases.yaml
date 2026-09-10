@@ -1,0 +1,21 @@
+# 订单测试数据
+
+create_cases:
+  - case_name: 正常下单
+    add_product_id: 1
+    add_quantity: 1
+    expected_success: true
+
+  - case_name: 空购物车下单
+    add_product_id: null      # 不加购物车
+    add_quantity: null
+    expected_success: false   # 应该失败：购物车为空
+    expected_msg: 购物车为空
+
+query_cases:
+  - case_name: 用订单号查详情
+    source: create_order      # 先创建一个订单再查
+    expected_has_fields:
+      - order_no
+      - status
+      - items

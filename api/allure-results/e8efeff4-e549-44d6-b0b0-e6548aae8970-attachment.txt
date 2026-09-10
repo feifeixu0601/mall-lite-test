@@ -1,0 +1,9 @@
+[32mINFO    [0m api_client:base_api.py:102 >>> GET http://localhost:8000/api/cart
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.002s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+[32mINFO    [0m cart_api:cart_api.py:77 购物车已清空（删除 0 个商品）
+[32mINFO    [0m api_client:base_api.py:102 >>> GET http://localhost:19999/api/products
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:869 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=19999): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /api/products
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:869 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=19999): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /api/products
+[31m[1mERROR   [0m api_client:base_api.py:136 连接失败：http://localhost:19999/api/products（请确认 MallLite 是否启动）
+[35mDEBUG   [0m api_client:base_api.py:154 Session 已关闭（请求 1 次，失败 1 次）

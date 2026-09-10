@@ -1,0 +1,11 @@
+14:05:39 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:05:39 | INFO     | api_client   | <<< 200 (0.005s)
+14:05:39 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:05:39 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:05:39 | INFO     | user_api     | 登录：vipuser
+14:05:39 | INFO     | api_client   | >>> POST http://localhost:8000/api/login
+14:05:39 | INFO     | api_client   |     Body: {"username": "vipuser", "password": "vip123"}
+14:05:41 | INFO     | api_client   | <<< 200 (2.043s)
+14:05:41 | INFO     | api_client   |     {"code": 200, "message": "登录成功", "data": {"id": 3, "username": "vipuser", "phone": "13800000003", "email": "vip@malllite.com", "role": "vip", "nickname": "VIP 用户"}}
+14:05:41 | INFO     | assertions   |   ✓ 业务成功 (code=200)
+14:05:41 | INFO     | assertions   |   ✓ Schema 校验通过：login

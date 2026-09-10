@@ -1,0 +1,4 @@
+14:04:33 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:04:33 | INFO     | api_client   | <<< 200 (0.004s)
+14:04:33 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:04:33 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）

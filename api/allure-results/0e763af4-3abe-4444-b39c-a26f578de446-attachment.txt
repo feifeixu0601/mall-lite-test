@@ -1,0 +1,9 @@
+14:06:07 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:06:07 | INFO     | api_client   | <<< 200 (0.003s)
+14:06:07 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:06:07 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:06:07 | INFO     | order_api    | 创建订单
+14:06:07 | INFO     | api_client   | >>> POST http://localhost:8000/api/orders
+14:06:07 | INFO     | api_client   | <<< 200 (0.002s)
+14:06:07 | INFO     | api_client   |     {"code": 400, "message": "购物车为空", "data": null}
+14:06:07 | INFO     | assertions   |   ✓ 业务失败 (code=400)

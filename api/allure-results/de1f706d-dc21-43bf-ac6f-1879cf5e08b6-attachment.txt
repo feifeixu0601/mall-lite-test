@@ -1,0 +1,19 @@
+14:09:32 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:32 | INFO     | api_client   | <<< 200 (0.005s)
+14:09:32 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:09:32 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:09:32 | INFO     | cart_api     | 添加到购物车：商品ID=1，数量=1
+14:09:32 | INFO     | api_client   | >>> POST http://localhost:8000/api/cart
+14:09:32 | INFO     | api_client   |     Body: {"product_id": 1, "quantity": 1}
+14:09:32 | INFO     | api_client   | <<< 200 (0.008s)
+14:09:32 | INFO     | api_client   |     {"code": 200, "message": "iPhone 15 Pro 已加入购物车"}
+14:09:32 | INFO     | order_api    | 创建订单
+14:09:32 | INFO     | api_client   | >>> POST http://localhost:8000/api/orders
+14:09:32 | INFO     | api_client   | <<< 200 (0.021s)
+14:09:32 | INFO     | api_client   |     {"code": 200, "message": "订单 ORD20260910-000022 创建成功", "data": {"order_no": "ORD20260910-000022", "user_id": 2, "items": [{"product_id": 1, "name": "iPhone 15 Pro", "price": 8999, "quantity": 1, "subtotal": 8999}], "total_price": 8999, "total_quantity": 1, "item_count": 1, "status": "待支付", "created_
+14:09:32 | INFO     | assertions   |   ✓ 业务成功 (code=200)
+14:09:32 | INFO     | order_api    | 创建订单
+14:09:32 | INFO     | api_client   | >>> POST http://localhost:8000/api/orders
+14:09:32 | INFO     | api_client   | <<< 200 (0.006s)
+14:09:32 | INFO     | api_client   |     {"code": 400, "message": "购物车为空", "data": null}
+14:09:32 | INFO     | assertions   |   ✓ 业务失败 (code=400)

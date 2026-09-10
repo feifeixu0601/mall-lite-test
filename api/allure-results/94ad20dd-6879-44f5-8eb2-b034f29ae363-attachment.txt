@@ -1,0 +1,31 @@
+urllib3.exceptions.ResponseError: too many 500 error responses
+
+The above exception was the direct cause of the following exception:
+.venv\Lib\site-packages\requests\adapters.py:667: in send
+    resp = conn.urlopen(
+.venv\Lib\site-packages\urllib3\connectionpool.py:955: in urlopen
+    return self.urlopen(
+.venv\Lib\site-packages\urllib3\connectionpool.py:872: in urlopen
+    return self.urlopen(
+.venv\Lib\site-packages\urllib3\connectionpool.py:945: in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+.venv\Lib\site-packages\urllib3\util\retry.py:543: in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+E   urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/products?page=1&page_size=0 (Caused by ResponseError('too many 500 error responses'))
+
+During handling of the above exception, another exception occurred:
+test_cases\test_pagination.py:91: in test_pagination_boundary
+    resp = product_api.get_products(page=page, page_size=page_size)
+api_objects\product_api.py:26: in get_products
+    return self.get("/api/products", params=params)
+api_objects\base_api.py:73: in get
+    return self._request("GET", path, params=params, timeout=timeout)
+api_objects\base_api.py:111: in _request
+    response = self.session.request(
+.venv\Lib\site-packages\requests\sessions.py:589: in request
+    resp = self.send(prep, **send_kwargs)
+.venv\Lib\site-packages\requests\sessions.py:703: in send
+    r = adapter.send(request, **kwargs)
+.venv\Lib\site-packages\requests\adapters.py:691: in send
+    raise RetryError(e, request=request)
+E   requests.exceptions.RetryError: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/products?page=1&page_size=0 (Caused by ResponseError('too many 500 error responses'))

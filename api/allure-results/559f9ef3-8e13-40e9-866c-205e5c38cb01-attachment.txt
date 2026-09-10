@@ -1,0 +1,7 @@
+[32mINFO    [0m api_client:base_api.py:102 >>> GET http://localhost:8000/api/cart
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.005s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+[32mINFO    [0m cart_api:cart_api.py:77 购物车已清空（删除 0 个商品）
+[32mINFO    [0m api_client:base_api.py:102 >>> GET http://localhost:8000/api/orders/ORD_NOT_EXIST_999
+[32mINFO    [0m api_client:base_api.py:121 <<< 404 (0.015s)
+[32mINFO    [0m api_client:base_api.py:124     {"detail": "订单不存在"}

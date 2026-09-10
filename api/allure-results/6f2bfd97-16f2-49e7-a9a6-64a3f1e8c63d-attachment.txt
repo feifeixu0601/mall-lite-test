@@ -1,0 +1,10 @@
+14:06:02 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:06:02 | INFO     | api_client   | <<< 200 (0.003s)
+14:06:02 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:06:02 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:06:02 | INFO     | user_api     | 注册：auto_1789020362
+14:06:02 | INFO     | api_client   | >>> POST http://localhost:8000/api/register
+14:06:02 | INFO     | api_client   |     Body: {"username": "auto_1789020362", "password": "Test123456"}
+14:06:04 | INFO     | api_client   | <<< 200 (2.025s)
+14:06:04 | INFO     | api_client   |     {"code": 200, "message": "注册成功", "data": {"username": "auto_1789020362"}}
+14:06:04 | INFO     | assertions   |   ✓ 业务成功 (code=200)

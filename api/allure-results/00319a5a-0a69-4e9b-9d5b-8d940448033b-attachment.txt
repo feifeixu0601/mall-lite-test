@@ -1,0 +1,9 @@
+[32mINFO    [0m api_client:base_api.py:102 >>> GET http://localhost:8000/api/cart
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.003s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+[32mINFO    [0m cart_api:cart_api.py:77 购物车已清空（删除 0 个商品）
+[32mINFO    [0m order_api:order_api.py:25 创建订单
+[32mINFO    [0m api_client:base_api.py:102 >>> POST http://localhost:8000/api/orders
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.002s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 400, "message": "购物车为空", "data": null}
+[32mINFO    [0m assertions:assertions.py:78   ✓ 业务失败 (code=400)

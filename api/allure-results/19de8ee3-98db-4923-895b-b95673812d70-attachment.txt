@@ -1,0 +1,4 @@
+test_cases\test_session.py:142: in test_session_add_does_not_affect_other
+    assert count_before == count_after, \
+E   AssertionError: 用户 B 加购物车后，用户 A 的数量从 0 变成了 1
+E   assert 0 == 1

@@ -1,0 +1,2395 @@
+2026-09-10 09:57:02 | INFO     | malllite | 日志系统初始化完成，日志文件：logs\malllite_2026-09-10.log
+2026-09-10 09:57:02 | INFO     | malllite | ==================================================
+2026-09-10 09:57:02 | INFO     | malllite | MallLite 电商系统启动中...
+2026-09-10 09:57:02 | INFO     | malllite | ==================================================
+2026-09-10 09:57:02 | INFO     | malllite | DataStore 初始化完成，数据目录：data
+2026-09-10 09:57:02 | INFO     | malllite | 路由注册完成
+2026-09-10 09:57:02 | INFO     | malllite | MallLite 启动成功
+2026-09-10 09:57:02 | INFO     | malllite |   访问地址：http://localhost:8000
+2026-09-10 09:57:02 | INFO     | malllite |   API 文档：http://localhost:8000/docs
+2026-09-10 09:57:11 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 09:57:11 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 09:57:11 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:11 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:13 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 09:57:13 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 09:57:13 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:13 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:15 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 09:57:15 | WARNING  | malllite | 登录失败：用户 admin 密码错误
+2026-09-10 09:57:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:17 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 09:57:17 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 09:57:17 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 09:57:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:17 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 09:57:17 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 09:57:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:57:19 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 09:57:19 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 09:59:35 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 09:59:35 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 09:59:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:37 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 09:59:37 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 09:59:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:39 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 09:59:39 | WARNING  | malllite | 登录失败：用户 admin 密码错误
+2026-09-10 09:59:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:41 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 09:59:41 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 09:59:41 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 09:59:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:41 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 09:59:41 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 09:59:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:43 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 09:59:43 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:08 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:26:08 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:26:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 10:26:08 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 10:26:10 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:26:10 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:26:10 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:10 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:12 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:26:12 | WARNING  | malllite | 登录失败：用户 admin 密码错误
+2026-09-10 10:26:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:14 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:26:14 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:26:14 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:26:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:14 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 10:26:14 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 10:26:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:26:16 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 10:26:16 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 10:30:06 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:30:06 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:30:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:30:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:46 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:38:46 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:38:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:46 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:38:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:48 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:48 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:48 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:48 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:38:50 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:38:50 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:38:50 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:40:59 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:40:59 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:40:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:40:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:40:59 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:40:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:40:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:01 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:01 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:01 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:01 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:01 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:21 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:21 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:21 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:21 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:21 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:23 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:23 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:23 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:23 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:23 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:23 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:23 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:25 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:41:25 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:41:25 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:41:25 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:41:25 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:41:25 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:41:25 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:25 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:27 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:27 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:27 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:27 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:27 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:34 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:41:34 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:41:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:34 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:36 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:36 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:36 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:36 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:41:39 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:39 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:41:39 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:04 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:46:04 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:46:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:26 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:26 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:26 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:28 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:28 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:28 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:28 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:28 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:30 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:46:30 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:46:30 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:46:30 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:46:30 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:46:30 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:46:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:46:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:46:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:30 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:49:30 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:49:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:30 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:52 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:52 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:52 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:54 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:54 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:54 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:54 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:54 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:56 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:49:56 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:49:56 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:49:56 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:49:56 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:49:56 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:49:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:49:58 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:58 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:58 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:58 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:49:58 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:52:54 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:52:54 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:52:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:52:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:52:54 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:52:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:52:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:52:56 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:52:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:52:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:52:56 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:52:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:52:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:16 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:16 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:16 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:18 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:18 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:18 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:18 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:18 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:53:20 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 10:53:20 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:53:20 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 10:53:20 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 10:53:20 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:20 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 10:53:20 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 10:53:22 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:53:22 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:53:22 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:53:22 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:53:22 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:53:22 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:53:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:53:24 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:53:24 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:24 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 10:53:24 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:24 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 10:53:24 | INFO     | malllite | 用户 2 更新购物车：iPhone 15 Pro 数量更新为 2
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\orders.json（69）
+2026-09-10 10:53:24 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 10:53:24 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:24 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 10:53:24 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 10:53:24 | INFO     | malllite | 订单创建成功：ORD20260910-000001，用户 2，金额 ¥17998
+2026-09-10 10:53:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:53:24 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 10:58:34 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 10:58:34 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 10:58:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:58:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:58:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 10:58:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 11:33:09 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 11:33:09 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 11:33:09 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 11:33:09 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 5
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 11:33:09 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 11:33:09 | WARNING  | malllite | 添加购物车失败：商品 ID=999999 不存在
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 11:33:09 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 0
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 11:33:09 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 11:33:09 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × -1
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 11:33:09 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 11:33:09 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\orders.json（70）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 11:33:09 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 11:33:09 | INFO     | malllite | 订单创建成功：ORD20260910-000002，用户 2，金额 ¥8999
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 11:33:09 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 13:56:56 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 13:56:56 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 13:56:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:56:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:56:58 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 13:56:58 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 13:56:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:56:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 13:57:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 13:57:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:00 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 13:57:00 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 13:57:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:00 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 13:57:00 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 13:57:02 | DEBUG    | malllite | 读取文件成功：data\categories.json（4）
+2026-09-10 13:57:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:05 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 13:57:05 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 13:57:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:57:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 13:58:47 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 13:58:47 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 13:58:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:49 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 13:58:50 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 13:58:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:52 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 13:58:52 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 13:58:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:54 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 13:58:54 | INFO     | malllite | 用户 vipuser 登录成功
+2026-09-10 13:58:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:56 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 13:58:56 | WARNING  | malllite | 登录失败：用户 admin 密码错误
+2026-09-10 13:58:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:58 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 13:58:58 | WARNING  | malllite | 登录失败：用户 nobody 不存在
+2026-09-10 13:58:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:58:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:59:00 | WARNING  | malllite | 登录失败：用户名为空
+2026-09-10 13:59:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:59:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 13:59:02 | WARNING  | malllite | 登录失败：密码为空
+2026-09-10 14:02:30 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:02:30 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:02:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:34 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:36 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:36 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:36 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:39 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:41 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 2
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:41 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:41 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\orders.json（71）
+2026-09-10 14:02:41 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:41 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:41 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:02:41 | INFO     | malllite | 订单创建成功：ORD20260910-000003，用户 2，金额 ¥8999
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:43 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:02:43 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:02:43 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:43 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:45 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:02:45 | WARNING  | malllite | 登录失败：用户 admin 密码错误
+2026-09-10 14:02:45 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:45 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:45 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:45 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:47 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:02:47 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:02:47 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:47 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:47 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:02:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:49 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:49 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 2
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:49 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:49 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:49 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:49 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:50 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:50 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 5
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:50 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:50 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:50 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:52 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 3
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:02:52 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:52 | WARNING  | malllite | 添加购物车失败：商品 ID=99999 不存在
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:54 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:54 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:56 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:56 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:58 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:58 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:02:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:02:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:02 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（72）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:03:03 | INFO     | malllite | 订单创建成功：ORD20260910-000004，用户 2，金额 ¥8999
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（73）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（73）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 2
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（73）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:03:03 | INFO     | malllite | 订单创建成功：ORD20260910-000005，用户 2，金额 ¥17998
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（74）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 2
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 × 3
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 更新购物车：商品 2 数量设为 0
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 5
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 × 3
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:03:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:03 | INFO     | malllite | 用户 2 更新购物车：商品 2 数量设为 0
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:04 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 0
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:04 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:04 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × -1
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:04 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:04 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × -100
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:04 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:04 | WARNING  | malllite | 添加购物车失败：iPhone 15 Pro 库存不足（需要 99999，剩余 98）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:04 | WARNING  | malllite | 添加购物车失败：商品 ID=999999 不存在
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | WARNING  | malllite | 用户 2 更新购物车失败：商品 999999 不在购物车中
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | WARNING  | malllite | 用户 2 更新购物车失败：商品 999999 不在购物车中
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:04 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\orders.json（74）
+2026-09-10 14:03:04 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:04 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:04 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:03:04 | INFO     | malllite | 订单创建成功：ORD20260910-000006，用户 2，金额 ¥8999
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:04 | DEBUG    | malllite | 读取文件成功：data\orders.json（75）
+2026-09-10 14:03:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:07 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:07 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:03:07 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:07 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:03:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:09 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:09 | WARNING  | malllite | 登录失败：用户  admin  不存在
+2026-09-10 14:03:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:11 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:11 | WARNING  | malllite | 登录失败：用户 ADMIN 不存在
+2026-09-10 14:03:11 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:11 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:13 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:13 | WARNING  | malllite | 登录失败：用户 Admin 不存在
+2026-09-10 14:03:13 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:13 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:15 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:15 | WARNING  | malllite | 登录失败：用户 admin' OR '1'='1 不存在
+2026-09-10 14:03:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:17 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:17 | WARNING  | malllite | 登录失败：用户 <script>alert(1)</script> 不存在
+2026-09-10 14:03:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:19 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:19 | WARNING  | malllite | 登录失败：用户 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 不存在
+2026-09-10 14:03:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:21 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:21 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:03:21 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:21 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:23 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:23 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:03:23 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:23 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:25 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:25 | INFO     | malllite | 用户 vipuser 登录成功
+2026-09-10 14:03:25 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:25 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:27 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:27 | WARNING  | malllite | 登录失败：用户 admin 密码错误
+2026-09-10 14:03:27 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:27 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:29 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:03:29 | WARNING  | malllite | 登录失败：用户 nobody 不存在
+2026-09-10 14:03:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:32 | WARNING  | malllite | 登录失败：用户名为空
+2026-09-10 14:03:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:34 | WARNING  | malllite | 登录失败：密码为空
+2026-09-10 14:03:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:36 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:36 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:36 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:36 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:38 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:38 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:38 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\categories.json（4）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:40 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 3
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:40 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:40 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\orders.json（75）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:40 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:03:40 | INFO     | malllite | 订单创建成功：ORD20260910-000007，用户 2，金额 ¥8999
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:40 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\orders.json（76）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:40 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:03:40 | INFO     | malllite | 订单创建成功：ORD20260910-000008，用户 2，金额 ¥8999
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\orders.json（77）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:40 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\orders.json（77）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:40 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:03:40 | INFO     | malllite | 订单创建成功：ORD20260910-000009，用户 2，金额 ¥8999
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\orders.json（78）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:40 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 2
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\orders.json（78）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:03:40 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:03:40 | INFO     | malllite | 订单创建成功：ORD20260910-000010，用户 2，金额 ¥17998
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\orders.json（79）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:40 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:42 | DEBUG    | malllite | 读取文件成功：data\orders.json（79）
+2026-09-10 14:03:42 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:42 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:44 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:44 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:44 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:44 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:46 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:46 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:48 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:51 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:51 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:51 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:53 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:53 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:53 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:03:55 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:03:58 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:02 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:04:06 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\orders.json（79）
+2026-09-10 14:04:06 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:06 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:04:06 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:04:06 | INFO     | malllite | 订单创建成功：ORD20260910-000011，用户 2，金额 ¥8999
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\orders.json（80）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\orders.json（80）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\orders.json（80）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\orders.json（80）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:10 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:10 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:10 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:10 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:12 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:15 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:17 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:19 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:19 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:21 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:21 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:21 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:23 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:23 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:23 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:25 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:25 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:25 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:27 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:27 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:27 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:29 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:33 | DEBUG    | malllite | 读取文件成功：data\categories.json（4）
+2026-09-10 14:04:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:35 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:35 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:51 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:51 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:53 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:53 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:53 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:53 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:53 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:53 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:55 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:55 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:55 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:55 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:55 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:57 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:57 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:57 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:57 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:57 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:57 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:57 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:04:59 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:04:59 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:59 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:04:59 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:59 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:04:59 | INFO     | malllite | 用户 2 更新购物车：iPhone 15 Pro 数量更新为 2
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:04:59 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:04:59 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:05:01 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:01 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:01 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:01 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:01 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:01 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:01 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:01 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:03 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:03 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:03 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:03 | INFO     | malllite | 用户 2 更新购物车：iPhone 15 Pro 数量更新为 2
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（80）
+2026-09-10 14:05:03 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:03 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:03 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:05:03 | INFO     | malllite | 订单创建成功：ORD20260910-000012，用户 2，金额 ¥17998
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:05 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:05 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:08 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:05:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:08 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:05:10 | DEBUG    | malllite | 读取文件成功：data\categories.json（4）
+2026-09-10 14:05:10 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:10 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:12 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:12 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:14 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:16 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:16 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:18 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:18 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:18 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:20 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:20 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:20 | DEBUG    | malllite | 读取文件成功：data\orders.json（81）
+2026-09-10 14:05:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:22 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:22 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:22 | DEBUG    | malllite | 读取文件成功：data\categories.json（4）
+2026-09-10 14:05:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:24 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:24 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:26 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:26 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:05:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:28 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:28 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:30 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:30 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:05:30 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:30 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:30 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:05:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:31 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:31 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\orders.json（81）
+2026-09-10 14:05:31 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:31 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:31 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:05:31 | INFO     | malllite | 订单创建成功：ORD20260910-000013，用户 2，金额 ¥8999
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:33 | WARNING  | malllite | 登录失败：用户 flow_1789020331 不存在
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:33 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\orders.json（82）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:33 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:05:33 | INFO     | malllite | 订单创建成功：ORD20260910-000014，用户 2，金额 ¥8999
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\orders.json（83）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:33 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\orders.json（83）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:33 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:05:33 | INFO     | malllite | 订单创建成功：ORD20260910-000015，用户 2，金额 ¥8999
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\orders.json（84）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:33 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\orders.json（84）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:33 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:05:33 | INFO     | malllite | 订单创建成功：ORD20260910-000016，用户 2，金额 ¥8999
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\orders.json（85）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:33 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\orders.json（85）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:05:33 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:05:33 | INFO     | malllite | 订单创建成功：ORD20260910-000017，用户 2，金额 ¥8999
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\orders.json（86）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\orders.json（86）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:35 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:35 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:05:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:37 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:37 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:39 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:39 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:05:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:41 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:41 | INFO     | malllite | 用户 vipuser 登录成功
+2026-09-10 14:05:42 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:42 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:44 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:44 | WARNING  | malllite | 登录失败：用户 admin 密码错误
+2026-09-10 14:05:44 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:44 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:46 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:46 | WARNING  | malllite | 登录失败：用户 nobody_xyz 不存在
+2026-09-10 14:05:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:48 | WARNING  | malllite | 登录失败：用户名为空
+2026-09-10 14:05:48 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:48 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:50 | WARNING  | malllite | 登录失败：密码为空
+2026-09-10 14:05:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:52 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:52 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:54 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:54 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:05:54 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:54 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:05:54 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:54 | INFO     | malllite | 用户 vipuser 登录成功
+2026-09-10 14:05:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:56 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:56 | WARNING  | malllite | 登录失败：用户 admin' OR '1'='1 不存在
+2026-09-10 14:05:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:58 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:05:58 | WARNING  | malllite | 登录失败：用户 <script>alert(1)</script> 不存在
+2026-09-10 14:05:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:05:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:00 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:06:00 | WARNING  | malllite | 登录失败：用户 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 不存在
+2026-09-10 14:06:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:02 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:06:02 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:06:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:04 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:06:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:06:06 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:06:06 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:06:06 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 5
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:06:06 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:06:06 | WARNING  | malllite | 添加购物车失败：商品 ID=999999 不存在
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:06:06 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:06 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:06:06 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 0
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:06:07 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:06:07 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × -1
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:06:07 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:06:07 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\orders.json（86）
+2026-09-10 14:06:07 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:06:07 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:06:07 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:06:07 | INFO     | malllite | 订单创建成功：ORD20260910-000018，用户 2，金额 ¥8999
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:06:07 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 14:08:59 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:08:59 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:08:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:08:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:01 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:01 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:01 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:05 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:09 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 2
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:09 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:09 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\orders.json（87）
+2026-09-10 14:09:09 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:09 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:09 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:09:09 | INFO     | malllite | 订单创建成功：ORD20260910-000019，用户 2，金额 ¥8999
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:09 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:11 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:11 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:09:11 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:11 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:13 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:13 | WARNING  | malllite | 登录失败：用户 admin 密码错误
+2026-09-10 14:09:13 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:13 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:13 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:13 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:15 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:15 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:09:15 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:15 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:15 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:09:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:15 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:17 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:17 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 2
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:17 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:17 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:17 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:18 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:18 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:18 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 5
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:18 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:18 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:18 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:20 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 3
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:20 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:20 | WARNING  | malllite | 添加购物车失败：商品 ID=99999 不存在
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:22 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:22 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:24 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:24 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:27 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:27 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:27 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:27 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:29 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:29 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\orders.json（88）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:09:31 | INFO     | malllite | 订单创建成功：ORD20260910-000020，用户 2，金额 ¥8999
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\orders.json（89）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\orders.json（89）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 2
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\orders.json（89）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:09:31 | INFO     | malllite | 订单创建成功：ORD20260910-000021，用户 2，金额 ¥17998
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\orders.json（90）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 2
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 × 3
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 更新购物车：商品 2 数量设为 0
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 5
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 × 3
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 更新购物车：商品 2 数量设为 0
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 0
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × -1
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × -100
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:31 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | WARNING  | malllite | 添加购物车失败：iPhone 15 Pro 库存不足（需要 99999，剩余 98）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:31 | WARNING  | malllite | 添加购物车失败：商品 ID=999999 不存在
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | WARNING  | malllite | 用户 2 更新购物车失败：商品 999999 不在购物车中
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | WARNING  | malllite | 用户 2 更新购物车失败：商品 999999 不在购物车中
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:32 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\orders.json（90）
+2026-09-10 14:09:32 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:09:32 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:09:32 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:09:32 | INFO     | malllite | 订单创建成功：ORD20260910-000022，用户 2，金额 ¥8999
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\orders.json（91）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:34 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:34 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:09:34 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:34 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:09:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:36 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:36 | WARNING  | malllite | 登录失败：用户  admin  不存在
+2026-09-10 14:09:36 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:36 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:38 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:38 | WARNING  | malllite | 登录失败：用户 ADMIN 不存在
+2026-09-10 14:09:38 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:38 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:41 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:41 | WARNING  | malllite | 登录失败：用户 Admin 不存在
+2026-09-10 14:09:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:43 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:43 | WARNING  | malllite | 登录失败：用户 admin' OR '1'='1 不存在
+2026-09-10 14:09:43 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:43 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:45 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:45 | WARNING  | malllite | 登录失败：用户 <script>alert(1)</script> 不存在
+2026-09-10 14:09:45 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:45 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:47 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:47 | WARNING  | malllite | 登录失败：用户 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 不存在
+2026-09-10 14:09:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:49 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:49 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:09:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:51 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:51 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:09:51 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:51 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:53 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:53 | INFO     | malllite | 用户 vipuser 登录成功
+2026-09-10 14:09:53 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:53 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:55 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:55 | WARNING  | malllite | 登录失败：用户 admin 密码错误
+2026-09-10 14:09:55 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:55 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:57 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:09:57 | WARNING  | malllite | 登录失败：用户 nobody 不存在
+2026-09-10 14:09:57 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:57 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:59 | WARNING  | malllite | 登录失败：用户名为空
+2026-09-10 14:09:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:09:59 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:01 | WARNING  | malllite | 登录失败：密码为空
+2026-09-10 14:10:01 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:01 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:05 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:07 | DEBUG    | malllite | 读取文件成功：data\categories.json（4）
+2026-09-10 14:10:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:07 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:07 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:07 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 3
+2026-09-10 14:10:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:08 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:08 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\orders.json（91）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:08 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:10:08 | INFO     | malllite | 订单创建成功：ORD20260910-000023，用户 2，金额 ¥8999
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:08 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\orders.json（92）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:08 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:10:08 | INFO     | malllite | 订单创建成功：ORD20260910-000024，用户 2，金额 ¥8999
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\orders.json（93）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:08 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\orders.json（93）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:08 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:10:08 | INFO     | malllite | 订单创建成功：ORD20260910-000025，用户 2，金额 ¥8999
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\orders.json（94）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:08 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 2
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\orders.json（94）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:08 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:10:08 | INFO     | malllite | 订单创建成功：ORD20260910-000026，用户 2，金额 ¥17998
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\orders.json（95）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:08 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:10 | DEBUG    | malllite | 读取文件成功：data\orders.json（95）
+2026-09-10 14:10:10 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:10 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:12 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:12 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:14 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:14 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:16 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:18 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:20 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:22 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:26 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:30 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:30 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:32 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:32 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:34 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:34 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\orders.json（95）
+2026-09-10 14:10:34 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:34 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:34 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:10:34 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:10:34 | INFO     | malllite | 订单创建成功：ORD20260910-000027，用户 2，金额 ¥8999
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\orders.json（96）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:34 | DEBUG    | malllite | 读取文件成功：data\orders.json（96）
+2026-09-10 14:10:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:35 | DEBUG    | malllite | 读取文件成功：data\orders.json（96）
+2026-09-10 14:10:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:35 | DEBUG    | malllite | 读取文件成功：data\orders.json（96）
+2026-09-10 14:10:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:39 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:39 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:41 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:43 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:43 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:43 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:45 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:45 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:45 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:47 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:47 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:49 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:49 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:52 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:54 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:54 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:56 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:58 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:10:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:10:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:02 | DEBUG    | malllite | 读取文件成功：data\categories.json（4）
+2026-09-10 14:11:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:02 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:04 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:04 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:24 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:24 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:24 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:26 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:26 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:26 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:26 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:26 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:29 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:29 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:11:29 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:11:29 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:11:29 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:29 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:11:29 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:11:31 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:31 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:31 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:31 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:31 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:31 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:33 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:33 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:11:33 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:11:33 | INFO     | malllite | 用户 2 更新购物车：iPhone 15 Pro 数量更新为 2
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\orders.json（96）
+2026-09-10 14:11:33 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:33 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:11:33 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:11:33 | INFO     | malllite | 订单创建成功：ORD20260910-000028，用户 2，金额 ¥17998
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:35 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:35 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:11:37 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:11:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:11:37 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:11:39 | DEBUG    | malllite | 读取文件成功：data\categories.json（4）
+2026-09-10 14:11:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:39 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:41 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:41 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:41 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:43 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:43 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:43 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:46 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:46 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:46 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:48 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:48 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:48 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:11:48 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:48 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:50 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:50 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:50 | DEBUG    | malllite | 读取文件成功：data\orders.json（97）
+2026-09-10 14:11:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:50 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:52 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:52 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:52 | DEBUG    | malllite | 读取文件成功：data\categories.json（4）
+2026-09-10 14:11:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:52 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:54 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:54 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:56 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:56 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:11:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:56 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:58 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:11:58 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:11:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:11:58 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:00 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:00 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:00 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:00 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\orders.json（97）
+2026-09-10 14:12:00 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:00 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:00 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:12:00 | INFO     | malllite | 订单创建成功：ORD20260910-000029，用户 2，金额 ¥8999
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:00 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:02 | WARNING  | malllite | 登录失败：用户 flow_1789020720 不存在
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:02 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:02 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\orders.json（98）
+2026-09-10 14:12:02 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:02 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:02 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:02 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:12:02 | INFO     | malllite | 订单创建成功：ORD20260910-000030，用户 2，金额 ¥8999
+2026-09-10 14:12:02 | DEBUG    | malllite | 读取文件成功：data\orders.json（99）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:03 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（99）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:03 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:12:03 | INFO     | malllite | 订单创建成功：ORD20260910-000031，用户 2，金额 ¥8999
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（100）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:03 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（100）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:03 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:12:03 | INFO     | malllite | 订单创建成功：ORD20260910-000032，用户 2，金额 ¥8999
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（101）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:03 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（101）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:03 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:12:03 | INFO     | malllite | 订单创建成功：ORD20260910-000033，用户 2，金额 ¥8999
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（102）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\orders.json（102）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:03 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:05 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:05 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:05 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:07 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:07 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:12:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:07 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:09 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:09 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:12:10 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:10 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:12 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:12 | INFO     | malllite | 用户 vipuser 登录成功
+2026-09-10 14:12:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:12 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:14 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:14 | WARNING  | malllite | 登录失败：用户 admin 密码错误
+2026-09-10 14:12:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:14 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:16 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:16 | WARNING  | malllite | 登录失败：用户 nobody_xyz 不存在
+2026-09-10 14:12:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:16 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:18 | WARNING  | malllite | 登录失败：用户名为空
+2026-09-10 14:12:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:18 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:20 | WARNING  | malllite | 登录失败：密码为空
+2026-09-10 14:12:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:20 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:22 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:22 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:12:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:22 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:24 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:24 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:12:24 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:24 | INFO     | malllite | 用户 testuser 登录成功
+2026-09-10 14:12:24 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:24 | INFO     | malllite | 用户 vipuser 登录成功
+2026-09-10 14:12:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:24 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:26 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:26 | WARNING  | malllite | 登录失败：用户 admin' OR '1'='1 不存在
+2026-09-10 14:12:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:26 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:28 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:28 | WARNING  | malllite | 登录失败：用户 <script>alert(1)</script> 不存在
+2026-09-10 14:12:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:28 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:31 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:31 | WARNING  | malllite | 登录失败：用户 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 不存在
+2026-09-10 14:12:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:31 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:33 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:33 | INFO     | malllite | 用户 admin 登录成功
+2026-09-10 14:12:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:33 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:35 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:35 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\users.json（3）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:37 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:37 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:37 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 5
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:37 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:37 | WARNING  | malllite | 添加购物车失败：商品 ID=999999 不存在
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:37 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 0
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:37 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:37 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × -1
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:37 | INFO     | malllite | 用户 2 更新购物车：商品 1 数量设为 0
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:37 | INFO     | malllite | 用户 2 添加购物车：iPhone 15 Pro × 1
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\orders.json（102）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\orders.json
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\products.json（15）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\products.json
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 写入文件成功：data\carts.json
+2026-09-10 14:12:37 | INFO     | malllite | 用户 2 购物车已清空
+2026-09-10 14:12:37 | INFO     | malllite | 订单创建成功：ORD20260910-000034，用户 2，金额 ¥8999
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | DEBUG    | malllite | 读取文件成功：data\carts.json（dict）
+2026-09-10 14:12:37 | WARNING  | malllite | 创建订单失败：用户 2 购物车为空

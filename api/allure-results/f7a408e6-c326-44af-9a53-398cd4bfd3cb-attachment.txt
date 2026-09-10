@@ -1,0 +1,25 @@
+14:03:03 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:03:03 | INFO     | api_client   | <<< 200 (0.007s)
+14:03:03 | INFO     | api_client   |     {"code": 200, "data": {"items": [{"product_id": 1, "name": "iPhone 15 Pro", "price": 8999, "quantity": 2, "subtotal": 17998}, {"product_id": 2, "name": "iPhone 15", "price": 5999, "quantity": 3, "subtotal": 17997}], "total_price": 35995, "total_quantity": 5, "item_count": 2}}
+14:03:03 | INFO     | cart_api     | 删除购物车商品：商品ID=1
+14:03:03 | INFO     | api_client   | >>> DELETE http://localhost:8000/api/cart/1
+14:03:03 | INFO     | api_client   | <<< 200 (0.008s)
+14:03:03 | INFO     | api_client   |     {"code": 200, "message": "购物车已更新"}
+14:03:03 | INFO     | cart_api     | 删除购物车商品：商品ID=2
+14:03:03 | INFO     | api_client   | >>> DELETE http://localhost:8000/api/cart/2
+14:03:03 | INFO     | api_client   | <<< 200 (0.021s)
+14:03:03 | INFO     | api_client   |     {"code": 200, "message": "购物车已更新"}
+14:03:03 | INFO     | cart_api     | 购物车已清空（删除 2 个商品）
+14:03:03 | INFO     | cart_api     | 添加到购物车：商品ID=1，数量=5
+14:03:03 | INFO     | api_client   | >>> POST http://localhost:8000/api/cart
+14:03:03 | INFO     | api_client   |     Body: {"product_id": 1, "quantity": 5}
+14:03:03 | INFO     | api_client   | <<< 200 (0.010s)
+14:03:03 | INFO     | api_client   |     {"code": 200, "message": "iPhone 15 Pro 已加入购物车"}
+14:03:03 | INFO     | cart_api     | 添加到购物车：商品ID=2，数量=3
+14:03:03 | INFO     | api_client   | >>> POST http://localhost:8000/api/cart
+14:03:03 | INFO     | api_client   |     Body: {"product_id": 2, "quantity": 3}
+14:03:03 | INFO     | api_client   | <<< 200 (0.017s)
+14:03:03 | INFO     | api_client   |     {"code": 200, "message": "iPhone 15 已加入购物车"}
+14:03:03 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:03:03 | INFO     | api_client   | <<< 200 (0.013s)
+14:03:03 | INFO     | api_client   |     {"code": 200, "data": {"items": [{"product_id": 1, "name": "iPhone 15 Pro", "price": 8999, "quantity": 5, "subtotal": 44995}, {"product_id": 2, "name": "iPhone 15", "price": 5999, "quantity": 3, "subtotal": 17997}], "total_price": 62992, "total_quantity": 8, "item_count": 2}}

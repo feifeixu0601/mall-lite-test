@@ -1,0 +1,8 @@
+14:09:05 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:05 | INFO     | api_client   | <<< 200 (0.005s)
+14:09:05 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:09:05 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:09:05 | INFO     | api_client   | >>> GET http://localhost:8000/api/products
+14:09:05 | INFO     | api_client   |     Params: {"page": 1, "page_size": 10, "keyword": "AirPods"}
+14:09:07 | INFO     | api_client   | <<< 200 (2.055s)
+14:09:07 | INFO     | api_client   |     {"code": 200, "data": {"total": 1, "page": 1, "page_size": 10, "total_pages": 1, "items": [{"id": 11, "name": "AirPods Pro 2", "price": 1899, "category": "配件", "stock": 300, "description": "自适应降噪，个性化空间音频", "is_new": false, "rating": 4.8}]}}

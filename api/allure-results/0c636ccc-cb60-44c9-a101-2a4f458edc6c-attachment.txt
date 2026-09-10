@@ -1,0 +1,13 @@
+14:09:11 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:11 | INFO     | api_client   | <<< 200 (0.009s)
+14:09:11 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:09:11 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:09:11 | INFO     | user_api     | 登录：admin
+14:09:11 | INFO     | api_client   | >>> POST http://localhost:8000/api/login
+14:09:11 | INFO     | api_client   |     Body: {"username": "admin", "password": "wrong_password"}
+14:09:13 | INFO     | api_client   | <<< 200 (2.030s)
+14:09:13 | INFO     | api_client   |     {"code": 401, "message": "密码错误", "data": null}
+14:09:13 | INFO     | assertions   |   ✓ 业务失败 (code=401)
+14:09:13 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:13 | INFO     | api_client   | <<< 200 (0.004s)
+14:09:13 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}

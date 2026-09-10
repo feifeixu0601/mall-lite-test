@@ -1,0 +1,12 @@
+[32mINFO    [0m api_client:base_api.py:102 >>> GET http://localhost:8000/api/cart
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (0.002s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+[32mINFO    [0m cart_api:cart_api.py:77 购物车已清空（删除 0 个商品）
+[32mINFO    [0m user_api:user_api.py:32 登录：admin
+[32mINFO    [0m api_client:base_api.py:102 >>> POST http://localhost:8000/api/login
+[32mINFO    [0m api_client:base_api.py:106     Body: {"username": "admin", "password": null}
+[32mINFO    [0m api_client:base_api.py:121 <<< 200 (2.059s)
+[32mINFO    [0m api_client:base_api.py:124     {"code": 401, "message": "请输入密码", "data": null}
+[32mINFO    [0m assertions:assertions.py:78   ✓ 业务失败 (code=401)
+[32mINFO    [0m assertions:assertions.py:93   ✓ code=401
+[35mDEBUG   [0m api_client:base_api.py:154 Session 已关闭（请求 1 次，失败 0 次）

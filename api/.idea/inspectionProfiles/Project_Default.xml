@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pytest-html" />
+          <option value="psutil" />
+          <option value="pytest-rerunfailures" />
+          <option value="pytest-testmon" />
+          <option value="pytest-xdist" />
+          <option value="types-pyyaml" />
+          <option value="pytest" />
+          <option value="playwright" />
+          <option value="pytest-playwright" />
+          <option value="pyyaml" />
+          <option value="allure-pytest" />
+          <option value="pytest-allure-adaptor" />
+          <option value="fastapi" />
+          <option value="uvicorn" />
+          <option value="jinja2" />
+          <option value="python-multipart" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

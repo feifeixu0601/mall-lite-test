@@ -1,0 +1,13 @@
+14:09:31 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:09:31 | INFO     | api_client   | <<< 200 (0.015s)
+14:09:31 | INFO     | api_client   |     {"code": 200, "data": {"items": [{"product_id": 1, "name": "iPhone 15 Pro", "price": 8999, "quantity": -1, "subtotal": -8999}], "total_price": -8999, "total_quantity": -1, "item_count": 1}}
+14:09:31 | INFO     | cart_api     | 删除购物车商品：商品ID=1
+14:09:31 | INFO     | api_client   | >>> DELETE http://localhost:8000/api/cart/1
+14:09:31 | INFO     | api_client   | <<< 200 (0.006s)
+14:09:31 | INFO     | api_client   |     {"code": 200, "message": "购物车已更新"}
+14:09:31 | INFO     | cart_api     | 购物车已清空（删除 1 个商品）
+14:09:31 | INFO     | cart_api     | 添加到购物车：商品ID=1，数量=-100
+14:09:31 | INFO     | api_client   | >>> POST http://localhost:8000/api/cart
+14:09:31 | INFO     | api_client   |     Body: {"product_id": 1, "quantity": -100}
+14:09:31 | INFO     | api_client   | <<< 200 (0.008s)
+14:09:31 | INFO     | api_client   |     {"code": 200, "message": "iPhone 15 Pro 已加入购物车"}

@@ -1,0 +1,11 @@
+14:12:14 | INFO     | api_client   | >>> GET http://localhost:8000/api/cart
+14:12:14 | INFO     | api_client   | <<< 200 (0.008s)
+14:12:14 | INFO     | api_client   |     {"code": 200, "data": {"items": [], "total_price": 0, "total_quantity": 0, "item_count": 0}}
+14:12:14 | INFO     | cart_api     | 购物车已清空（删除 0 个商品）
+14:12:14 | INFO     | user_api     | 登录：nobody_xyz
+14:12:14 | INFO     | api_client   | >>> POST http://localhost:8000/api/login
+14:12:14 | INFO     | api_client   |     Body: {"username": "nobody_xyz", "password": "123"}
+14:12:16 | INFO     | api_client   | <<< 200 (2.032s)
+14:12:16 | INFO     | api_client   |     {"code": 401, "message": "用户不存在", "data": null}
+14:12:16 | INFO     | assertions   |   ✓ 业务失败 (code=401)
+14:12:16 | INFO     | assertions   |   ✓ code=401

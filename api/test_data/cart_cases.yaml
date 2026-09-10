@@ -1,0 +1,48 @@
+# 购物车测试数据
+# 用 YAML 格式，支持注释
+
+add_cases:
+  - case_name: 添加单个商品
+    product_id: 1
+    quantity: 1
+    expected_success: true
+
+  - case_name: 添加多个数量
+    product_id: 1
+    quantity: 5
+    expected_success: true
+
+  - case_name: 添加不存在的商品
+    product_id: 999999
+    quantity: 1
+    expected_success: false   # 商品不存在，应该失败
+
+  - case_name: 数量为零
+    product_id: 1
+    quantity: 0
+    expected_success: true    # MallLite 不校验数量，仍然返回成功
+
+  - case_name: 负数数量
+    product_id: 1
+    quantity: -1
+    expected_success: true    # MallLite 不校验数量，仍然返回成功
+
+update_cases:
+  - case_name: 修改为更大数量
+    product_id: 1
+    quantity: 10
+    expected_success: true
+
+  - case_name: 修改为1
+    product_id: 1
+    quantity: 1
+    expected_success: true
+
+delete_cases:
+  - case_name: 删除已添加的商品
+    product_id: 1
+    expected_success: true
+
+  - case_name: 删除不存在的商品
+    product_id: 999999
+    expected_success: true    # 不报错（MallLite 的行为）

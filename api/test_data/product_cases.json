@@ -1,0 +1,14 @@
+{
+  "search_cases": [
+    {"keyword": "iPhone", "min_count": 1},
+    {"keyword": "Pro", "min_count": 2},
+    {"keyword": "华为", "min_count": 1},
+    {"keyword": "AirPods", "min_count": 1}
+  ],
+  "category_cases": [
+    {"category_id": 1, "name": "手机", "min_count": 2},
+    {"category_id": 2, "name": "笔记本", "min_count": 1},
+    {"category_id": 3, "name": "平板", "min_count": 1},
+    {"category_id": 4, "name": "配件", "min_count": 2}
+  ]
+}
