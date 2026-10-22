@@ -1,4 +1,5 @@
 # MallLite 电商系统 & 自动化测试（API + Web UI）
+系列博客在：https://blog.csdn.net/2501_90821979/category_13197957.html
 
 本项目包含三大部分：
 
